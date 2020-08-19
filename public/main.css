@@ -192,8 +192,11 @@ a{
     }
         .about-main{
             display: flex;
+            align-items: center;
         }
             .profile-img{
+                margin-top: -4rem;
+                margin-right: 1rem;
                 border-radius: 50%;
                 width: 12rem !important;
                 height: 12rem !important;
@@ -342,7 +345,7 @@ a{
             display: flex;    
             justify-content: space-around;    
             align-items: center;
-            padding: 0rem 2rem;
+            padding: 0rem 1rem;
         }
             .contact-info{
                 font-family: 'Text Me One', sans-serif;
