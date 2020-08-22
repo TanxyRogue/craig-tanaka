@@ -14,7 +14,6 @@ exports.sendUserMessage = functions.firestore
     .onCreate((snap, context) => {
         let name = snap.data().name;
         let email = snap.data().email;
-        let number = snap.data().number;
         let message = snap.data().message;
 
         /* ... */
@@ -35,8 +34,7 @@ exports.sendUserMessage = functions.firestore
                     
                     <h3>User's Details</h3>
                     <b>Name :</b> ${name}<br>
-                    <b>Email :</b> ${email}<br>
-                    <b>Phone :</b> ${number}`
+                    <b>Email :</b> ${email}`
         };
 
         transporter.sendMail(mailOptions, function (error, info) {

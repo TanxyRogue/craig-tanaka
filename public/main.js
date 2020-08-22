@@ -25,7 +25,6 @@ const navbarLst = document.querySelector('.nav-list');
 const formSubmitBtn = document.querySelector('#form-submit');
 const formErrorLabel = document.querySelector('#form-error-label');
 const nameInput = document.querySelector('#name-input');
-const numberInput = document.querySelector('#number-input');
 const emailInput = document.querySelector('#email-input');
 const messageInput = document.querySelector('#message-input');
 const loader = document.querySelector('.loader-container');
